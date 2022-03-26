@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+   
+    
+}
+div{
+    margin: 10px 18px;
+    justify-content: center;
+   
+}
+.space{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 50px;
+}
+
+.image{
+    width: 650px;
+    height:250px;
+    margin-left: 150px;
+}
+.radio{
+    text-align: center;
+    margin-top: 20px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+   
+}
+.text1{
+   margin:0;
+   
+   width: 250px;
+   height: 390px;
+    background-color:rgb(80, 72, 72) ;
+    
+}
+.image1{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 0%;
+    
+   
+}
+.triangle-bottomright {
+    width: 10px;
+    height: 10px;
+    border-bottom: 100px solid rgb(144, 158, 12);
+    border-left: 100px solid transparent;
+    background-color: rgb(80, 72, 72);
+    margin-top: -8%;
+    margin-left: 150px;
+    
+  }
+ 
+  h3{
+      font-weight: 100;
+      font-family:Arial, Helvetica, sans-serif;
+      background-color: rgb(144, 158, 12);
+      margin-bottom: 0%;
+      color: white;
+      text-align: center;
+      padding: 8px;
+      margin-top: 0%;
+  }
+  .p1{
+      background-color: rgb(80, 72, 72);
+      margin-top: -3%;
+      justify-content:center;
+      text-align: center;
+      color: white;
+      margin-bottom: -10px;
+
+    
+  }
+  .container2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+   
+   
+  }
+  .content1{
+    margin:0;
+   
+    width: 250px;
+    height: 300px;
+    
+    color:black;
+    
+  }
+  .text{
+      font-family:'Oswald', sans-serif;
+      text-transform: capitalize;
+      
+  }
+  h2{
+      text-transform: capitalize;
+      font-weight: 200;
+      
+  }
+  .text_p{
+      text-align: justify;
+  }
+  li{
+      text-align:left;
+
+  }
+  .button{
+      background-color: rgb(34, 29, 29);
+      color: white;
+  }
+ 
+  .container3{
+      
+      
+      display: flex;
+      flex-direction: row;
+      
+      
+      
+  }
+  h1{
+      background-color: rgb(144, 158, 12);
+      width: 87px;
+    height: 135px;
+    padding: 38px;
+    margin-top: 0px;
+    text-align: center;
+}
+  
+.symbol{
+    background-color: rgb(34, 29, 29);
+    margin:0%;
+    width: 304px;
+    height: 133px;
+   
+}
+h2{
+
+margin-top: 10px;
+    color: rgb(144, 158, 12);
+    text-align: center;
+}  
+.parg{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 750px){
+.container .container1 { width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+}
+@media screen and (max-width: 600px){
+    .container2 .container3{
+        width: 50%;
+    }
+}
